@@ -1,0 +1,35 @@
+@import url(../header/nav/nav.css);
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../photo_2024-02-29_20-12-27.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+.wrapper-desc h2 {
+  max-width: 804px;
+  font-size: 60px;
+  color: aliceblue;
+}
+.wrapper-desc .p-dsc {
+  font-size: 18px;
+  opacity: 0.6;
+  max-width: 458px;
+}
+.wrapper-desc .btn2 {
+  max-width: 15%;
+  margin-right: 200px;
+  background-color: red;
+  border-radius: 5px;
+  padding: 16px 35px;
+  border: none;
+}/*# sourceMappingURL=header.css.map */

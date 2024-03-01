@@ -1,0 +1,48 @@
+.main-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+    .main-dcs{
+        display: flex;
+        
+    }
+   
+    .span-end{
+        font-size: 25px;
+    }
+   .main-dcs{
+    display: flex;
+    gap: 30px;
+   }
+    .main-wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .main-icon{
+            display: flex;
+            gap: 10px;
+              margin-left: 4%;
+            align-items: center;
+            .span-icon{
+                color: gold;
+            }
+            .span-icons{
+                color: red;
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .main-dcs{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     align-items: center;
+     flex-direction: column;
+  
+    } 
+ 
+ }
